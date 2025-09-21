@@ -1,2 +1,2 @@
 # Code-for-QICHIR
-This code is for the paper "Potentialities and Possibilities: Quantum Machine Learning Empowered Intangible Cultural Heritage Image Recognition".
+This code is for the implementation of QICHIR.
