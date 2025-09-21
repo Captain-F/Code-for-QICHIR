@@ -1,0 +1,6 @@
+torchquantum==0.1.7
+torch==2.5.1
+numpy==2.0.2
+sklearn-pandas==2.2.0
+opencv-python==4.12.0.88
+tensorflow==2.19.0
