@@ -93,6 +93,7 @@ class Qichir(nn.Module):
 
   def __init__(self):
     super().__init__()
+    # derive extracted visual fetures from xception via feature_extraction module
     self.conv = nn.Sequential(
         nn.Conv2d(in_channels=2048, out_channels=512,
               kernel_size=2, stride=1, padding=0),
@@ -103,6 +104,7 @@ class Qichir(nn.Module):
     self.name = "Qichir"
 
   def forward(self, x, use_qiskit=False):
+    # derive extracted visual fetures from xception via feature_extraction module
     x = x.view(-1, 2048, 7, 7)
     x = self.conv(x)
 
